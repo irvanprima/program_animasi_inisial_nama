@@ -1,0 +1,51 @@
+void setup()
+{
+  size(1400,900);
+}
+  void draw()
+{
+  int h,b;
+  h = second();
+  b = minute();
+  background(0);
+  
+  // Gambar huruf i
+  fill(0,255,0);
+  noStroke();
+  rect(50+20*h, 300,80,300);
+  
+  fill(0,255,0);
+  noStroke();
+  rect(20+20*h, 300,140,40);
+  
+  fill(0,255,0);
+  noStroke();
+  rect(20+20*h, 560,140,40);
+  
+  //gambar huruf p
+  fill(255,0,50);
+  noStroke();
+  rect(180+20*h, 300,80,300);
+ 
+  fill(255,0,50);
+  noStroke();
+  ellipse(300+20*h, 400,200,200);
+  
+  fill(0);
+  noStroke();
+  ellipse(300+20*h, 400,110,130);
+  
+  //gambar huruf p
+  fill(100,0,400);
+  noStroke();
+  rect(420+20*h, 300,80,300);
+  
+  fill(100,0,400);
+  noStroke();
+  ellipse(540+20*h, 400,200,200);
+  
+  fill(0);
+  noStroke();
+  ellipse(540+20*h, 400,110,130);
+  
+}
